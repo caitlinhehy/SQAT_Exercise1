@@ -16,3 +16,45 @@ EditAction 1474634131009 BowlingGame.java 757 4 1 0
 CompilationAction 1474634131140 BowlingGame.java
 CompilationAction 1474634131140 BowlingGame.java
 EditAction 1474634131147 TestBowling.java 779 3 12 2
+CompilationAction 1474634131379 TestBowling.java
+CompilationAction 1474634131380 TestBowling.java
+CompilationAction 1474634131380 TestBowling.java
+CompilationAction 1474634131380 TestBowling.java
+CompilationAction 1474634131381 TestBowling.java
+RefactoringAction 1474634137792 BowlingGame.java ADD void add(int) METHOD
+RefactoringAction 1474634154215 BowlingGame.java REMOVE add(int) METHOD
+RefactoringAction 1474634199148 TestBowling.java RENAME testStory1()=>void testStory2() METHOD
+RefactoringAction 1474634307294 BowlingGame.java ADD int getScore() METHOD
+RefactoringAction 1474634310278 BowlingGame.java REMOVE getScore() METHOD
+RefactoringAction 1474634901389 TestBowling.java ADD void testStory2()/2 METHOD
+RefactoringAction 1474634904403 TestBowling.java RENAME testStory2()/2=>void testStory3() METHOD
+RefactoringAction 1474635068833 TestBowling.java RENAME testStory3()=>void testStory4() METHOD
+CompilationAction 1474635258328 BowlingGame.java
+CompilationAction 1474635258346 TestBowling.java
+CompilationAction 1474635258347 TestBowling.java
+CompilationAction 1474635258347 TestBowling.java
+CompilationAction 1474635258348 TestBowling.java
+CompilationAction 1474635258480 BowlingGame.java
+CompilationAction 1474635258480 TestBowling.java
+CompilationAction 1474635258481 TestBowling.java
+CompilationAction 1474635258481 TestBowling.java
+CompilationAction 1474635258481 TestBowling.java
+CompilationAction 1474635258481 TestBowling.java
+CompilationAction 1474635258481 TestBowling.java
+RefactoringAction 1474635269423 TestBowling.java REMOVE testUpdateEndOfDay_ConjuredMana_Quality_10() METHOD
+RefactoringAction 1474636368019 TestBowling.java ADD void testStory4()/2 METHOD
+RefactoringAction 1474636372529 TestBowling.java RENAME testStory4()/2=>void testStory5() METHOD
+RefactoringAction 1474636987009 TestBowling.java ADD void testStory5()/2 METHOD
+RefactoringAction 1474636992531 TestBowling.java RENAME testStory5()/2=>void testStory6() METHOD
+CompilationAction 1474637046205 BowlingGame.java
+CompilationAction 1474637046214 TestBowling.java
+CompilationAction 1474637046215 TestBowling.java
+CompilationAction 1474637046418 BowlingGame.java
+CompilationAction 1474637046418 BowlingGame.java
+CompilationAction 1474637046419 TestBowling.java
+CompilationAction 1474637046419 TestBowling.java
+CompilationAction 1474637046419 TestBowling.java
+RefactoringAction 1474637886682 TestBowling.java ADD void testStory6()/2 METHOD
+RefactoringAction 1474637890196 TestBowling.java RENAME testStory6()/2=>void testStory9() METHOD
+CompilationAction 1474638098913 BowlingGame.java
+EditAction 1474638098924 TestBowling.java 2475 6 98 5

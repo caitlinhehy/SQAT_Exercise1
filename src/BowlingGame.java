@@ -10,13 +10,32 @@ public class BowlingGame {
 	private Frame bonus;
 	
 	public BowlingGame(){
-		int frameScore = 0;
+		int[] frames = new int[2];
+		int firstThrow = frames[0];
+		int secondThrow = frames[1];
+		int framescore = 0;
+		int gamescore = 0;
 		int i;
-		for(i=0;i<frames.size();i++){
-			frameScore = frameScore+frames(i);
+		for(i=0;i<frames.length;i++){
+			framescore = framescore+frames[i];
 		}
-		int game[] = 
-		
+		int[] games = new int[20];
+		for(i=0;i<frames.length;i++){
+			games.add(frames);
+		}
+		for(i=0;i<games.length;i++){
+			if(firstThrow ==10){
+				if(next.frame(secondThrow == 0)){
+					framescore = 10+next.frame(firstThrow)+next.next(firstThrow);
+				}
+				else framescore = 10+next.frame(framescore);
+			}
+			if(firstThrow != 0 || firstThrow+secondThrow == 10){
+				framescore = 10+next.frame(firstThrow);
+			}
+			gamescore = gamescore+games[i];
+		}
+			
 	}
 	
 	// adds a frame to the game

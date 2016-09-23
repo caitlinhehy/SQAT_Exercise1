@@ -10,31 +10,122 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void testStory1() {
-		//Arrange
+	public void testStory2() {
 		BowlingGame frames = new BowlingGame();
 		frames.add(2);
 		frames.add(4);
-
-		//Act
-		String score = game.getScore() ;
-		// Assert
-		assertEquals("Tie score incorrect", "40 - 30", score);		
+		int frameScore;
+		assertEquals("Tie score incorrect", "6", framescore);		
 	}
 	
 	@Test
-	public void testUpdateEndOfDay_ConjuredMana_Quality_10() {
-		// Arrange
-		GildedRose store = new GildedRose();
-		store.addItem(new Item("Conjured Mana", 10, 10) );
-		
-		// Act
-		store.updateEndOfDay();
-		
-		// Assert
-		List<Item> items = store.getItems();
-		Item itemBrie = items.get(0);
-		assertEquals(9, itemBrie.getQuality());
+	public void testStory4() {
+		BowlingGame frames = new BowlingGame();
+		frames.add(1);
+		frames.add(5);
+		frames.add(3);
+		frames.add(6);
+		frames.add(7);
+		frames.add(2);
+		frames.add(3);
+		frames.add(6);
+		frames.add(4);
+		frames.add(4);
+		frames.add(5);
+		frames.add(3);
+		frames.add(3);
+		frames.add(3);
+		frames.add(4);
+		frames.add(5);
+		frames.add(8);
+		frames.add(1);
+		frames.add(2);
+		frames.add(6);
+		int frameScore;
+		assertEquals("Tie score incorrect", "81", gamescore);		
 	}
+	
+	@Test
+	public void testStory5() {
+		BowlingGame frames = new BowlingGame();
+		frames.add(10);
+		frames.add(0);
+		frames.add(3);
+		frames.add(6);
+		frames.add(7);
+		frames.add(2);
+		frames.add(3);
+		frames.add(6);
+		frames.add(4);
+		frames.add(4);
+		frames.add(5);
+		frames.add(3);
+		frames.add(3);
+		frames.add(3);
+		frames.add(4);
+		frames.add(5);
+		frames.add(8);
+		frames.add(1);
+		frames.add(2);
+		frames.add(6);
+		int frameScore;
+		assertEquals("Tie score incorrect", "94", gamescore);		
+	}
+	
+	@Test
+	public void testStory6() {
+		BowlingGame frames = new BowlingGame();
+		frames.add(1);
+		frames.add(9);
+		frames.add(4);
+		frames.add(6);
+		frames.add(7);
+		frames.add(2);
+		frames.add(3);
+		frames.add(6);
+		frames.add(4);
+		frames.add(4);
+		frames.add(5);
+		frames.add(3);
+		frames.add(3);
+		frames.add(3);
+		frames.add(4);
+		frames.add(5);
+		frames.add(8);
+		frames.add(1);
+		frames.add(2);
+		frames.add(6);
+		int frameScore;
+		assertEquals("Tie score incorrect", "88", gamescore);		
+	}
+	
+	@Test
+	public void testStory9() {
+		BowlingGame frames = new BowlingGame();
+		frames.add(10);
+		frames.add(0);
+		frames.add(10);
+		frames.add(0);
+		frames.add(7);
+		frames.add(2);
+		frames.add(3);
+		frames.add(6);
+		frames.add(4);
+		frames.add(4);
+		frames.add(5);
+		frames.add(3);
+		frames.add(3);
+		frames.add(3);
+		frames.add(4);
+		frames.add(5);
+		frames.add(8);
+		frames.add(1);
+		frames.add(2);
+		frames.add(6);
+		int frameScore;
+		assertEquals("Tie score incorrect", "112", gamescore);		
+	}
+	
+
 
 }
