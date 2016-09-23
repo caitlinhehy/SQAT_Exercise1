@@ -1,0 +1,15 @@
+FileOpenedAction 1474630985500 TestBowling.java 165 1 1 0
+FileOpenedAction 1474631123611 Frame.java 671 6 7 0
+FileOpenedAction 1474631416984 SudokuVerifier.java 1766 1 5 0
+FileOpenedAction 1474631883786 SudokuVerifierTest.java 1882 5 25 5
+RefactoringAction 1474632404826 TestBowling.java ADD void testTennisGame_Player1Win3Points_Score_40_30() METHOD
+RefactoringAction 1474632413846 TestBowling.java RENAME testTennisGame_Player1Win3Points_Score_40_30()=>void testst FIELD
+RefactoringAction 1474632414862 TestBowling.java RENAME testst=>void teststor FIELD
+RefactoringAction 1474632415878 TestBowling.java RENAME teststor=>void teststory FIELD
+RefactoringAction 1474632416892 TestBowling.java RENAME teststory=>void teststory1 FIELD
+RefactoringAction 1474632420911 TestBowling.java RENAME teststory1=>void testtory1 FIELD
+RefactoringAction 1474632421926 TestBowling.java RENAME testtory1=>void testStory1 FIELD
+RefactoringAction 1474632505490 TestBowling.java ADD void testUpdateEndOfDay_ConjuredMana_Quality_10() METHOD
+RefactoringAction 1474633887943 BowlingGame.java ADD int frames(int) METHOD
+RefactoringAction 1474633893128 BowlingGame.java REMOVE frames(int) METHOD
+EditAction 1474634131009 BowlingGame.java 757 4 1 0
