@@ -31,6 +31,7 @@ public class BowlingGame {
 				else framescore = 10+next.frame(framescore);
 			}
 			if(firstThrow != 0 || firstThrow+secondThrow == 10){
+				if()
 				framescore = 10+next.frame(firstThrow);
 			}
 			gamescore = gamescore+games[i];

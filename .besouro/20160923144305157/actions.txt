@@ -58,3 +58,12 @@ RefactoringAction 1474637886682 TestBowling.java ADD void testStory6()/2 METHOD
 RefactoringAction 1474637890196 TestBowling.java RENAME testStory6()/2=>void testStory9() METHOD
 CompilationAction 1474638098913 BowlingGame.java
 EditAction 1474638098924 TestBowling.java 2475 6 98 5
+CompilationAction 1474638099179 BowlingGame.java
+CompilationAction 1474638099179 BowlingGame.java
+CompilationAction 1474638099179 TestBowling.java
+CompilationAction 1474638099179 TestBowling.java
+CompilationAction 1474638099180 TestBowling.java
+CompilationAction 1474638155394 BowlingGame.java
+CompilationAction 1474638155552 BowlingGame.java
+CompilationAction 1474638155553 BowlingGame.java
+CompilationAction 1474638155553 BowlingGame.java
