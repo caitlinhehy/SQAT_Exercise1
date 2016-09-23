@@ -13,3 +13,6 @@ RefactoringAction 1474632505490 TestBowling.java ADD void testUpdateEndOfDay_Con
 RefactoringAction 1474633887943 BowlingGame.java ADD int frames(int) METHOD
 RefactoringAction 1474633893128 BowlingGame.java REMOVE frames(int) METHOD
 EditAction 1474634131009 BowlingGame.java 757 4 1 0
+CompilationAction 1474634131140 BowlingGame.java
+CompilationAction 1474634131140 BowlingGame.java
+EditAction 1474634131147 TestBowling.java 779 3 12 2
